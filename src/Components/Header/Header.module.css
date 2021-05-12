@@ -1,0 +1,42 @@
+.headDiv{
+    background-color: rgb(242, 250, 250);
+    overflow: hidden;
+}
+
+    .textDiv{
+        text-align: center;
+        font-family:consolas;
+        color:rgb(84, 19, 235);
+        margin-bottom: 20px;
+        font-size: .8em!important;
+    }
+
+.resumeBtn{
+    border:2px solid rgb(84, 19, 235);
+    color:rgb(12, 8, 8);
+    background-color: rgb(255, 255, 255);
+    padding:8px 15px;
+    font-size: 1.5em;
+    margin-top: 15px;
+    border-radius: 25px;
+    transition: background-color 1s ease-in-out;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.resumeBtn:hover{
+background-color: rgb(84, 19, 235);
+color:white;
+}
+.btnDiv{
+    text-align: center;
+}
+.childText:last-child{
+    font-size: .9em;
+    color:rgb(34, 31, 31);
+    font-weight: 200!important;
+}
+@media only screen and(max-width:600px){
+    .textDiv{
+        font-size: .5em!important;
+    }
+}

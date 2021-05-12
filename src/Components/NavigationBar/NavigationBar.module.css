@@ -1,0 +1,35 @@
+.navBg{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    justify-content: center;
+    background-color: white;
+}
+.textAlign{
+    color:rgb(52, 50, 179);
+    margin-left: 40%;
+    font-size: 18px;
+    width: 200px!important;
+    display:inline-block;
+    text-align: center;
+    border:2px solid rgb(84, 19, 235);
+
+    background-color: rgb(255, 255, 255);
+    padding:8px 15px;
+
+
+    border-radius: 25px;
+    transition: background-color 1s ease-in-out;
+    font-weight: 400;
+}
+
+.webBtn{
+    border:none;
+    background-color: rgb(22, 173, 22);
+    padding:5px 16px;
+    color:white;
+    font-size: .8em;
+    border-radius: 1px;
+}
+.textAlign:hover{
+    background-color: rgb(84, 19, 235);
+    color:white;
+}

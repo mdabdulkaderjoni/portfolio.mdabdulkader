@@ -1,0 +1,28 @@
+.box{
+    display: flex;
+    width: 90%;
+    position: relative;
+    top:-750px;
+    left:6%;
+
+}
+.mainDiv{
+    background-color: rgb(240, 222, 67);
+    padding:50px 0px;
+
+}
+.skillHead{
+    width: 90%;
+    height: 800px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;   
+}
+.skill{  
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: white;
+    margin:0px 20px;
+    border-radius: 4px;
+    height: 300px;
+}
+

@@ -1,0 +1,32 @@
+.project{
+    background-color: rgb(235, 243, 235);
+    width:90%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+
+}
+.demoImg{
+    width:100%;
+    margin: 0;
+    border-radius: 4px;
+
+}
+.linkBtn{
+    color:white;
+    padding:5px 8px;
+    border:none;
+    border-radius: 1px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.git{
+    background-color: rgb(39, 38, 38);
+}
+.live{
+    background-color: rgb(13, 196, 13);
+}
+@media only screen and(min-width:1000px){
+    .project{
+        width: 100%;
+    }
+}

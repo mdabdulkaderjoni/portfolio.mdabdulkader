@@ -1,0 +1,43 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.monitor{ 
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px 0px;
+    width: 80%;
+    height: 550px;
+
+}
+
+.viewport{
+    height: 100%;
+    width:97%;   
+    overflow-y: scroll;
+    background-color: white;
+}
+.slide{
+    height:100%!important;
+}
+
+.viewport::-webkit-scrollbar{
+    width: 10px;
+} 
+.viewport::-webkit-scrollbar-thumb{
+    background-color: rgb(135, 250, 173); 
+    border-radius: 30%;
+}
+.viewport::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(161, 154, 154); 
+}
+
+@media screen and (max-width: 600px) {
+
+  }
