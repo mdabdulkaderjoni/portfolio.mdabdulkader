@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+
 import NavigationBar from '../NavigationBar/NavigationBar';
 import Slider from '../Slider/Slider';
 import styles from './TabView.module.css'
